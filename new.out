@@ -1,0 +1,13 @@
+Benchmark_CreatePerTx-4                  	    3000	    424394 ns/op
+Benchmark_PutDataByBatch-4               	  100000	    174192 ns/op
+Benchmark_PutDataConcurrentlyByBatch-4   	  100000	    176101 ns/op
+--- BENCH: Benchmark_PutDataConcurrentlyByBatch-4
+	bench_test.go:191: count keys = 5
+	bench_test.go:191: count keys = 104
+	bench_test.go:191: count keys = 10004
+	bench_test.go:191: count keys = 100004
+Benchmark_GetData-4                      	   30000	     45093 ns/op
+Benchmark_Cursor-4                       	 1000000	      1413 ns/op
+PASS
+ok  	github.com/reinventer/bolt/cmd/enctest	46.917s
+

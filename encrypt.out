@@ -1,0 +1,12 @@
+Benchmark_CreatePerTx-4                  	     500	   3344007 ns/op
+Benchmark_PutDataByBatch-4               	  100000	    160170 ns/op
+Benchmark_PutDataConcurrentlyByBatch-4   	  100000	    160146 ns/op
+--- BENCH: Benchmark_PutDataConcurrentlyByBatch-4
+	bolt_encrypt_bench_test.go:192: count keys = 5
+	bolt_encrypt_bench_test.go:192: count keys = 104
+	bolt_encrypt_bench_test.go:192: count keys = 10004
+	bolt_encrypt_bench_test.go:192: count keys = 100004
+Benchmark_GetData-4                      	   50000	     32058 ns/op
+Benchmark_Cursor-4                       	 2000000	       918 ns/op
+PASS
+ok  	command-line-arguments	62.841s

@@ -1,0 +1,8 @@
+Benchmark_CreatePerTx-4                             5000            250903 ns/op
+Benchmark_PutDataByBatch-4                        100000            194350 ns/op
+Benchmark_PutDataConcurrentlyByBatch-4            100000            192901 ns/op
+Benchmark_GetData-4                              1000000              1164 ns/op
+Benchmark_Cursor-4                               5000000	     10722 ns/op
+PASS
+ok      command-line-arguments  47.051s
+

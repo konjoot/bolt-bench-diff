@@ -1,0 +1,12 @@
+Benchmark_CreatePerTx-4                  	     500	   2970227 ns/op
+Benchmark_PutDataByBatch-4               	  200000	    357331 ns/op
+Benchmark_PutDataConcurrentlyByBatch-4   	  200000	    363428 ns/op
+--- BENCH: Benchmark_PutDataConcurrentlyByBatch-4
+	bench_test.go:186: count keys = 5
+	bench_test.go:186: count keys = 104
+	bench_test.go:186: count keys = 10004
+	bench_test.go:186: count keys = 200004
+Benchmark_GetData-4                      	 1000000	      1058 ns/op
+Benchmark_Cursor-4                       	20000000	        58.4 ns/op
+PASS
+ok  	command-line-arguments	249.956s
